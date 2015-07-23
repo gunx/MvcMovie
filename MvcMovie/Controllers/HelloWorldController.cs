@@ -33,5 +33,10 @@ namespace MvcMovie.Controllers
         {
             return "";
         }
+
+        public string Welcome3(string name) 
+        {
+            return "something from wy";
+        }
     }
 }
