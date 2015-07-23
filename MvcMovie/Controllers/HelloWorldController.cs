@@ -27,6 +27,11 @@ namespace MvcMovie.Controllers
         {
             //return "This is the Welcome action method...";
             return HttpUtility.HtmlEncode("Hello " + name + ", NumTimes is: " + numTimes);
-        } 
+        }
+
+        public string Welcome2(string name)
+        {
+            return "";
+        }
     }
 }
